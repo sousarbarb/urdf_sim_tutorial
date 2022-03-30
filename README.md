@@ -45,3 +45,12 @@ roslaunch urdf_sim_tutorial 09-joints.launch
 ```shell
 roslaunch urdf_sim_tutorial 13-diffdrive.launch
 ```
+
+## Useful links to learn more about Gazebo and URDF/Xacro
+
+- Introduction to Xacro and URDF: https://ni.www.techfak.uni-bielefeld.
+  de/files/URDF-XACRO.pdf
+- Tutorial URDF: http://wiki.ros.org/urdf/Tutorials
+  - Using URDF in Gazebo: http://wiki.ros.org/urdf/Tutorials/Using%20a%20URDF%20in%20Gazebo
+  - GitHub: https://github.com/ros/urdf_sim_tutorial/blob/master/config/diffdrive.yaml
+  - Gazebo: http://gazebosim.org/tutorials/?tut=ros_urdf
