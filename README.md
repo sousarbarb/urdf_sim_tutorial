@@ -32,3 +32,16 @@ roslaunch urdf_sim_tutorial gazebo.launch model:=`rospack find urdf_sim_tutorial
 ```shell
 roslaunch urdf_sim_tutorial 09-joints.launch
 ```
+5. Transmissions
+   - **For every non-fixedd joint, it is necessary to specify a transmission
+     to tell Gazebo that to do with the joint!**
+   - See tags `<transmission>` in the urdf file (including for the wheels)
+6. Joint control
+   - Specify a joint controller for each joint
+   - See the yaml files in [config](config/)
+
+## Drive the Droid
+
+```shell
+roslaunch urdf_sim_tutorial 13-diffdrive.launch
+```
